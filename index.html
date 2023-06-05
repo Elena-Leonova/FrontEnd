@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Poem</title>
-    <style>div {color: red}</style>
+    <style>div {color: red}
+.green{background:green;}
+#result{background:orange;}
+</style>
 </head>
 <body>
 <div id="root"></div>
 <div>Roses are red,</div>
 <hr>
-<h1>My name is Dave,</h1>
+<h3 class="green">My name is Dave,</h3>
 <br>
 <h2>This poem makes no sense!</h2>
 <div><span style="color:blue">Microwave.</span></div>
 <hr>
 <button id="sumBtn">Sum</button>
-<input type="number" id="operand1">
+<input class="green" type="number" id="operand1">
 <span>+</span>
-<input type="number" id="operand2">
+<input class="green" type="number" id="operand2">
 <span>=</span>
 <span id="result"></span>
+<hr>
+
+<input type="button">
+<input type="checkbox">
+<input type="submit">
+<input class="green" type="password">
 
 <script>
     let operand1 = document.querySelector('#operand1');
